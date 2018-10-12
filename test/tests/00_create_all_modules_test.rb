@@ -7,6 +7,7 @@ describe Msf::Simple::Framework do
     it "should be able create #{ref}" do
       e = $msf.modules.create(ref)
     		e.should_not == nil
+      Test hub
     end
   end
 end
